@@ -1,0 +1,19 @@
+name: Trigger on File Change
+
+on:
+  push:
+    branches:
+      - main  # or the name of your default branch
+    paths:
+      - 'databases.json'  # Trigger the workflow when this file changes
+
+jobs:
+  run_task:
+    runs-on: self-hosted
+
+    steps:
+    - name: Run a script
+      run: |
+        echo "Running task on self-hosted runner"
+        # Replace the following line with the actual task you want to run
+        python3 detector.py
