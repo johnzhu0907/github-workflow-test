@@ -1,0 +1,17 @@
+name: Run Task on Self-Hosted Runner
+
+on:
+  push:
+    branches:
+      - main  # or the name of your default branch
+
+jobs:
+  run_task:
+    runs-on: self-hosted
+
+    steps:
+    - name: Run a script
+      run: |
+        echo "Running task on self-hosted runner"
+        # Replace the following line with the actual task you want to run
+        python3 hello-world.py
