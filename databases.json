@@ -1,6 +1,20 @@
-{
-  "name":"Kaia"
-  "url": "https://github.com/kaiachain/kaia",
-  "is_fork": true,
-  "fork_ecosystem":"Ethereum"
-}
+[
+  {
+   "name":"kaia",
+   "repo_url": "https://github.com/kaiachain/kaia",
+   "commit_id": "c7abd9421c765dfd7365c03f79b313ffe601f158",
+   "tag":"v0.1.0",
+   "language":"go",
+   "is_fork": true,
+   "fork_ecosystem":"ethereum"
+ },
+ {
+   "name":"celo",
+   "repo_url": "https://github.com/celo-org/celo-blockchain",
+   "commit_id": "",
+   "tag":"v1.8.7",
+   "language":"go",
+   "is_fork": true,
+   "fork_ecosystem":"ethereum"
+ }
+]
