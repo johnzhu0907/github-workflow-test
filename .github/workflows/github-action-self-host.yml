@@ -12,7 +12,7 @@ jobs:
     runs-on: self-hosted
     defaults:
       run:
-        working-directory: /home/codeqluser/github-workflow-test
+        working-directory: /home/codeqluser/github-workflow-test/scripts
         shell: bash
 
     steps:
@@ -20,4 +20,4 @@ jobs:
       run: |
         echo "Running task on self-hosted runner"
         # Replace the following line with the actual task you want to run
-        python3 scripts/hello.py
+        python3 hello.py
