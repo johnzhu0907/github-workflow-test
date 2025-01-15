@@ -10,10 +10,10 @@ on:
 jobs:
   run_task:
     runs-on: self-hosted
-    defaults:
-      run:
-        working-directory: /home/codeqluser/github-workflow-test
-        shell: bash
+    # defaults:
+      # run:
+      #   working-directory: /home/codeqluser/github-workflow-test
+      #   shell: bash
 
     steps:
     - name: Run a script
